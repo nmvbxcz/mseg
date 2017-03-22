@@ -3,7 +3,7 @@ PROJECT(MSEG)
 
 ADD_LIBRARY(msegio SHARED msegio.cpp)
 
-ADD_LIBRARY(msegcore SHARED msegcore.cpp)
+ADD_LIBRARY(msegcore SHARED msegcore.cpp msegio)
 
 ADD_LIBRARY(msegstd SHARED msegstd.cpp)
 
